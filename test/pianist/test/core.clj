@@ -11,3 +11,4 @@
   (is "Not a valid Redis .rdb file"))
 
 ;;(count (map #(bit-test % 0) (parse-rdb-file "test/fixtures/dump.rdb" (parsemap))))
+;;(map #(ubyte %) (parse-rdb-file "test/fixtures/dump.rdb" (parsemap)))
